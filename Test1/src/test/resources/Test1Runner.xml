@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Potbelly Client on Chrome Browser">
+
+
+    <parameter name="os" value="Win"/>
+    <parameter name="url" value="https://www.macys.com/"/>
+    <parameter name="browserName" value="firefox"/>
+
+    <test name = "Macys Home Page">
+        <classes>
+            <class name="SampleTests.SampleTest1"/>
+        </classes>
+    </test>
+
+</suite>
